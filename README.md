@@ -61,56 +61,14 @@ This Django-based application manages mentor-student relationships, user authent
     http://127.0.0.1:8000/student/students/1/delete/
     ```
 
-## Usage
+## Task -2
 
-1. **Run the Django server:**
-    ```bash
-    python manage.py runserver
-    ```
+1. **myApp:**
+      ```bash
+      http://127.0.0.1:8000/accounts/login/?next=/myapp/upload/
+      http://127.0.0.1:8000/myapp/upload/
+      http://127.0.0.1:8000/myapp/profile/
+      ```
+   <img width="957" alt="Screenshot 2023-12-09 032434" src="https://github.com/pvijay037/deploy/assets/95902517/b72b5241-b7fe-4f27-915e-2b50264b25c5">
 
-2. **Access the application at:** `http://localhost:8000`
 
-## Features
-
-- **User Management:**
-  - Registration
-  - Login with token-based authentication
-  - Get user details
-
-- **Mentor and Student Interaction:**
-  - Mentor-specific routes for adding students
-  - Student CRUD operations (Edit, Update, Delete)
-
-- **Frontend UI:**
-  - Basic HTML/CSS/Bootstrap interface for demonstration
-  ![Sample UI](/path/to/your/sample_ui.png)
-
-- **Video Upload and Display:**
-  - Upload videos and view them on user profiles
-
-## API Endpoints
-
-- `/api/register/`: User registration
-- `/api/login/`: User login
-- `/api/user-details/`: Get user details
-- `/mentor/api/...`: Mentor-specific routes
-- `/student/api/...`: Student-specific routes
-- ...
-
-## Database Models
-
-- `Mentor`: Fields include (list fields).
-- `Student`: Fields include (list fields).
-- ...
-
-## Deployment
-
-The project is deployed at [Hosting Platform](https://your-hosted-url.com).
-
-## Contributing
-
-Contributions are welcomed! Feel free to open issues or pull requests for improvements or bug fixes.
-
-## License
-
-This project is licensed under the [License Name]. See the [LICENSE](LICENSE) file for details.
