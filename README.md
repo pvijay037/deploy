@@ -19,8 +19,6 @@ This Django-based application manages mentor-student relationships, user authent
     http://127.0.0.1:8000/api/user/
     ```
     <img width="647" alt="Screenshot 2023-12-09 015750" src="https://github.com/pvijay037/deploy/assets/95902517/9799e685-e25d-45d1-aff5-63e012e1f367">
-    
-    
     ```bash
     http://127.0.0.1:8000/api/logout/
     ```
