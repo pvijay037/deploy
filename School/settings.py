@@ -136,3 +136,8 @@ AUTH_USER_MODEL = 'Account.User'
 
 LOGOUT_REDIRECT_URL = '/accounts/login/'  # Replace this with your desired logout redirect URL
 LOGIN_REDIRECT_URL='/myapp/profile/'
+
+
+import os
+STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
