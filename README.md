@@ -11,13 +11,10 @@ This Django-based application manages mentor-student relationships, user authent
     http://127.0.0.1:8000/api/register/
     ```
     <img width="636" alt="Screenshot321" src="https://github.com/pvijay037/deploy/assets/95902517/d7e4f7da-a615-4a7b-9e39-6a2ad90cd90b">
-    
     ```bash
     http://127.0.0.1:8000/api/login/
     ```
     <img width="640" alt="Screenshot 2023-12-09 014638" src="https://github.com/pvijay037/deploy/assets/95902517/443dd3b9-d5b8-44b6-94d3-50d4d621207f">
-    
-    
     ```bash
     http://127.0.0.1:8000/api/user/
     ```
