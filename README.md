@@ -10,46 +10,47 @@ This Django-based application manages mentor-student relationships, user authent
     ```bash
     http://127.0.0.1:8000/api/register/
     ```
-    ![School Project Logo](/School/images/Screenshot%202023-12-09%20014321.png)
+    ![School Project Logo](./images/Screenshot%202023-12-09%20014321.png)
 
     ```bash
     http://127.0.0.1:8000/api/login/
     ```
-    ![School Project Logo](/School/images/Screenshot%202023-12-09%20014638.png)
+    ![School Project Logo](./images/Screenshot%202023-12-09%20014638.png)
 
 
     ```bash
     http://127.0.0.1:8000/api/user/
     ```
-    ![School Project Logo](/School/images/Screenshot%202023-12-09%20015750.png)
+    ![School Project Logo](./images/Screenshot%202023-12-09%20015750.png)
 
 
     ```bash
     http://127.0.0.1:8000/api/logout/
     ```
-    ![School Project Logo](/School/images/Screenshot%202023-12-09%20020014.png)
+    ![School Project Logo](./images/Screenshot%202023-12-09%20020014.png)
 
 2. **Mentor App:**
     ```bash
     http://127.0.0.1:8000/mentor/mentors/
     ```
-    ![School Project Logo](/School/images/Screenshot%202023-12-09%20020655.png)
+    ![School Project Logo](./images/Screenshot%202023-12-09%20020655.png)
 
     ```bash
     http://127.0.0.1:8000/mentor/mentors/1/add_student/
     ```
-    ![School Project Logo](/School/images/Screenshot%202023-12-09%20021030.png)
+    ![School Project Logo](./images/Screenshot%202023-12-09%20021030.png)
 
     ```bash
     http://127.0.0.1:8000/mentor/students/
     ```
-    ![School Project Logo](/School/images/Screenshot%202023-12-09%20021218.png)
+    ![School Project Logo](./images/Screenshot%202023-12-09%20021218.png)
 
 
 3. **Student App:**
     ```bash
     http://127.0.0.1:8000/student/students/
-        http://127.0.0.1:8000/student/students/create/
+    
+    http://127.0.0.1:8000/student/students/create/
 
     http://127.0.0.1:8000/student/students/1/
 
