@@ -1,6 +1,6 @@
-# School Project
+# Project
 
-![School Project Logo](/path/to/your/logo.png)
+
 
 This Django-based application manages mentor-student relationships, user authentication, and basic CRUD functionalities for students. It also includes features for video uploads and display on user profiles.
 
